@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: NesrineGuesmii/S3_CI-CD_Pipeline@master
       with:
         args: --follow-symlinks --delete
       env:
